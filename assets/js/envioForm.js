@@ -20,6 +20,6 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     })
     .catch(error => {
         console.error('Error:', error);
-        alert('ERROR DEL SERVIDOR: Hubo un problema al enviar tu consulta. ¡Contactanos por WhatsApp o Instagram.');
+        alert('ERROR DEL SERVIDOR: Hubo un problema al enviar tu consulta. ¡Contactanos por WhatsApp o Instagram!');
     });
 });
