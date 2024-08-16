@@ -1,0 +1,593 @@
+.navbar.navbar-default.navbar-transparency, .navbar.navbar-inverse.navbar-transparency {
+  background: transparent;
+}
+
+.navbar.navbar-default:not(.navbar-transparency), .navbar.navbar-default:not(.navbar-transparency) .dropdown-menu, .navbar.navbar-default.navbar-transparency.navchange, .navbar.navbar-default.navbar-transparency.navchange .dropdown-menu, .navbar:not(.navbar-transparency) .dropdown-menu, .navbar.navbar-default:not(.navbar-fixed-top).navbar-transparency {
+  background: #dddddd;
+}
+
+.navbar.navbar-inverse:not(.navbar-transparency), .navbar.navbar-inverse:not(.navbar-transparency) .dropdown-menu, .navbar.navbar-inverse.navbar-transparency.navchange, .navbar.navbar-inverse.navbar-transparency.navchange .dropdown-menu, .navbar:not(.navbar-transparency) .dropdown-menu, .navbar.navbar-inverse:not(.navbar-fixed-top).navbar-transparency {
+  background: #333333;
+}
+
+@media (max-width:767px) {
+  .navbar.navbar-default .navbar-nav, .navbar.navbar-default.navbar-transparency, .navbar.navbar-default, .navbar.navbar-default .navbar-collapse {
+    background: #dddddd;
+  }
+}
+
+@media (max-width:767px) {
+  .navbar.navbar-inverse .navbar-nav, .navbar.navbar-inverse.navbar-transparency, .navbar.navbar-inverse, .navbar.navbar-inverse .navbar-collapse {
+    background: #333333;
+  }
+}
+
+.navbar.navbar-default .navbar-nav > li > a, .navbar.navbar-default a.navbar-brand.navbar-link, .navbar.navbar-default a.navbar-brand.navbar-link:hover {
+  color: #000000;
+  background: none;
+}
+
+.navbar.navbar-inverse .navbar-nav > li > a, .navbar.navbar-inverse a.navbar-brand.navbar-link, .navbar.navbar-inverse a.navbar-brand.navbar-link:hover {
+  color: #ffffff;
+  background: none;
+}
+
+.navbar.navbar-default .navbar-nav > li > a:hover, .navbar.navbar-default .navbar-nav > li.active > a, .navbar-default .navbar-nav > .open > a, .navbar.navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .navbar.navbar-default .dropdown-menu, .navbar.navbar-default .dropdown-menu li > a:hover, .navbar.navbar-default .dropdown-menu li > a:focus {
+  color: #000000;
+  background: rgba(255,255,255,.4);
+}
+
+.navbar.navbar-inverse .navbar-nav > li > a:hover, .navbar.navbar-inverse .navbar-nav > li.active > a, .navbar-inverse .navbar-nav > .open > a, .navbar.navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus, .navbar.navbar-inverse .dropdown-menu, .navbar.navbar-inverse .dropdown-menu li > a:hover, .navbar.navbar-inverse .dropdown-menu li > a:focus {
+  color: #ffffff;
+  background: rgba(0,0,0,.2);
+}
+
+.navbar.navbar-default .dropdown-menu li a {
+  color: #000000 !important;
+}
+
+.navbar.navbar-inverse .dropdown-menu li a {
+  color: #ffffff !important;
+}
+
+.navbar.navbar-default .dropdown-menu li a:hover, .navbar.navbar-default .dropdown-menu li.active a {
+  background-image: none !important;
+  background: rgba(255,255,255,.4) !important;
+}
+
+.navbar.navbar-inverse .dropdown-menu li a:hover, .navbar.navbar-inverse .dropdown-menu li.active a {
+  background-image: none !important;
+  background: rgba(0,0,0,.2) !important;
+}
+
+.navbar.navbar-default .icon-bar {
+  background: #000000;
+}
+
+.navbar.navbar-inverse .icon-bar {
+  background: #ffffff;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: rgba(255,255,255,.6);
+  border-width: 1px;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: rgba(0,0,0,.6);
+  border-width: 1px;
+}
+
+.titulo-menu-comida {
+  color: #feffd2!important;
+  font-size: 3rem;
+}
+
+.btn-menu-comidas {
+  font-size: 1.5rem;
+  background: #dc5f00;
+  border-style: none;
+  border-radius: 0;
+  color: #101010;
+  transition: width 0.5s ease, height 0.5s ease, box-shadow 0.5s ease;
+}
+
+.btn-menu-comidas:hover {
+  color: #dc5f00;
+  background: #101010;
+  box-shadow: 5px 5px;
+}
+
+.div-btn-comidas {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #about-us {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #about-us {
+    margin-top: 658px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #about-us {
+    margin-top: 1190px;
+  }
+}
+
+@media (max-width: 575px) {
+  #about-us {
+    height: 800px;
+    margin-top: 1410px;
+  }
+}
+
+#about-us {
+  height: 800px;
+}
+
+#img-about-us {
+  background: url("../../assets/img/carneAboutUs.png") center / cover no-repeat;
+  /*width: 50%!important;*/
+  /*height: 800px!important;*/
+}
+
+.img-half-section {
+  height: 800px!important;
+  background: url("../../assets/img/food-why-choose-us.webp") center / cover no-repeat;
+}
+
+@media 1292px {
+  #desc-about-us {
+    /*width: 50%;*/
+    background: url("../../assets/img/vectorComidaFondo.webp") center / auto, #101010;
+  }
+}
+
+@media (max-width: 575px) {
+  #desc-about-us {
+    height: 1292px;
+  }
+}
+
+#desc-about-us {
+  /*width: 50%;*/
+  background: url("../../assets/img/vectorComidaFondo.webp") center / auto, #101010;
+}
+
+.desc-half-section {
+  height: 800px;
+  width: auto;
+}
+
+#subtitulo-about-us {
+}
+
+#div-descripcion {
+  margin: 40px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 575px) {
+  .div-descripcion {
+    margin-left: 3px;
+  }
+}
+
+.div-descripcion {
+  margin: 40px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+#desc-text-about-us {
+  color: #ffa866;
+  font-size: 18px;
+}
+
+#subtitulo-desc-text {
+  font-family: 'Playfair Display SC', serif;
+  color: #dc5f00;
+  margin-bottom: 16px;
+}
+
+#titulo-text-about-us {
+  color: #feffd2;
+  margin-bottom: 16px;
+  font-size: 48px;
+}
+
+#div-btn-desct-about-us {
+}
+
+#btn-reservar {
+  font-size: 30px!important;
+}
+
+#btn-reservar:hover {
+  font-size: 30px!important;
+}
+
+@media (max-width: 575px) {
+  #por-que-elegirnos {
+    margin-top: 1290px;
+  }
+}
+
+#por-que-elegirnos {
+  height: 850px;
+  background: #101010;
+  border-bottom-style: none;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #desc-por-que-elegirnos {
+    height: 850px;
+    background: #8b1313;
+  }
+}
+
+@media (max-width: 575px) {
+  #desc-por-que-elegirnos {
+    height: 1260px;
+  }
+}
+
+#desc-por-que-elegirnos {
+}
+
+#titulo-why-choose-us {
+  color: #feffd2;
+  font-size: 48px;
+}
+
+.point-why-choose-us {
+  margin-top: 32px;
+}
+
+.figure.figura-why-choose-us {
+  height: 139px;
+  margin: 0px;
+  width: 300px;
+}
+
+.img-why-choose-us-point {
+  width: 300px;
+}
+
+.subtitulo-why-choose-us {
+  color: #ffa866;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.img-icono-why-choose-us {
+  margin-right: 16px;
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #ubication {
+    margin-top: 750px;
+  }
+}
+
+@media (max-width: 575px) {
+  #ubication {
+    margin-top: 1210px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #ubication {
+  }
+}
+
+#ubication {
+  height: 600px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #ubicaciones-escritas {
+    height: 659px!important;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #ubicaciones-escritas {
+    height: 1190px!important;
+  }
+}
+
+@media (max-width: 575px) {
+  #ubicaciones-escritas {
+    height: 1411px!important;
+  }
+}
+
+@media (min-width: 1200px) {
+  #ubicaciones-escritas {
+    width: auto;
+    height: 600px;
+    background: url("../../assets/img/vectorComidaFondoNaranja.webp") center / auto repeat, #101010;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #ubicaciones-escritas {
+    height: 620px!important;
+  }
+}
+
+#ubicaciones-escritas {
+  width: auto;
+  height: 600px;
+  background: url("../../assets/img/vectorComidaFondoNaranja.webp") center / auto repeat, #101010;
+}
+
+.horarios {
+}
+
+.horarios-titulo {
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #ubicaciones-img {
+    height: 620px!important;
+  }
+}
+
+#ubicaciones-img {
+  width: auto;
+  height: 600px;
+  background: url("../../assets/img/restaurantImgUbicaciones.webp") center / cover no-repeat;
+}
+
+.col-ubicaciones {
+  background: #101010;
+  padding: 8px;
+  box-shadow: 0px 0px;
+  border-top-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  border: 2px solid #dc5f00 ;
+}
+
+.titulo-ubicaciones {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  color: #feffd2!important;
+}
+
+.subtitulo-ubicaciones {
+  color: #ffa866;
+}
+
+.titulo-principal-ubicaciones {
+  text-align: center;
+  color: #101010;
+  font-size: 48px;
+  margin-bottom: 16px;
+  background: #dc5f00;
+}
+
+#div-btn-contactar {
+  margin-top: 16px;
+}
+
+#img-brand {
+  box-shadow: 3px 3px;
+  color: #dc5f00;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #faq {
+    height: 800px;
+    margin-top: 575px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #faq {
+    height: 800px;
+    margin-top: 1128px;
+  }
+}
+
+@media (max-width: 575px) {
+  #faq {
+    margin-top: 1380px;
+    height: 1141.797px;
+  }
+}
+
+@media (min-width: 992px) {
+  #faq {
+    height: 630.797px;
+  }
+}
+
+#faq {
+  background: url("../../assets/img/vectorComida.png") center / auto repeat, #101010;
+}
+
+#contenedor-faq {
+}
+
+#titulo-faq {
+  color: rgb(254,255,210);
+  font-size: 64px;
+}
+
+.subtitulo-faq {
+  color: rgb(255,168,102);
+  font-size: 24px;
+  font-family: Montserrat, sans-serif;
+}
+
+#titulo-y-subtitulo-div {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.item-acordion {
+  border-radius: 0px;
+  border-width: 0px;
+  border-style: none;
+}
+
+.titulo-faq-preguntas:hover {
+  text-decoration: none;
+  color: rgb(220,95,0);
+}
+
+.titulo-faq-preguntas {
+  color: #ffeea9!important;
+}
+
+.item-heading {
+  background: #101010;
+}
+
+.item-content {
+  background: #202020;
+}
+
+.subtitulo-content {
+  color: rgb(255,168,102)!important;
+  font-size: 18px;
+}
+
+#contacto {
+  height: 800px;
+}
+
+#contacto-mail {
+  background: url("../../assets/img/vectorComidaFondo.webp") center, #101010;
+}
+
+.field_label_form {
+  font-size: 24px;
+  color: rgb(255,238,169);
+}
+
+.div-form {
+  margin-top: 16px;
+}
+
+.text-form {
+  height: 148px!important;
+}
+
+.sub-form {
+  font-size: 24px;
+  color: rgb(255,168,102);
+  border-top-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-bottom-color: rgb(254,255,210);
+}
+
+.title-form {
+  font-size: 48px;
+  margin-bottom: 16px;
+  color: rgb(255,238,169)!important;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+#div-titulo-contacto {
+}
+
+#btn-enviar {
+  margin-top: 16px;
+  font-family: 'Playfair Display SC', serif;
+}
+
+#contacto-social-media {
+  background: rgb(220,95,0);
+}
+
+#subtitulo-social-media {
+  color: #101010;
+  font-size: 24px;
+}
+
+#titulo-social-media {
+  font-size: 48px;
+}
+
+@media (max-width: 991px) {
+  #social-media-items {
+    margin-top: 32px;
+  }
+}
+
+@media (max-width: 991px) {
+  #social-media-items {
+    flex-direction: column;
+  }
+}
+
+#social-media-items {
+  margin-top: 32px;
+}
+
+.social-media-link {
+  width: 300px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.icono-media {
+  color: #ffffff;
+}
+
+.subtitulo-social-media {
+  color: #ffeea9;
+  font-size: 18px;
+}
+
+.subtitulo-social-media:hover {
+  color: rgb(255,255,255);
+}
+
+.titulo-footer {
+  font-size: 2rem!important;
+  color: #FFBF78!important;
+}
+
+.icono-footer {
+  color: #FF7D29;
+  font-size: 48px;
+}
+
+#hr-footer {
+  background: #FF7D29;
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #footer {
+    margin-top: 800px;
+  }
+}
+
+@media (max-width: 575px) {
+  #footer {
+    margin-top: 800px;
+  }
+}
+
+#footer {
+  background-color: #101010!important;
+}
+
+.item-list {
+  margin-bottom: 16px;
+}
+

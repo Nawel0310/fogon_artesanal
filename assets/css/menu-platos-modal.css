@@ -1,0 +1,29 @@
+.comida {
+  width: 70%;
+}
+
+.precio {
+  width: 30%;
+}
+
+.item-comida-menu-platos {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.subtitulo {
+  font-family: Montserrat, sans-serif;
+}
+
+.titulo {
+  font-family: 'Playfair Display', serif;
+  color: rgb(220,95,0);
+}
+
+.lista-grupo {
+  background: url("../../assets/img/vectorComidaFondo.webp") center / cover repeat, #101010;
+  color: #ffa866;
+  border-radius: 0px;
+  border: 1px solid rgb(220,95,0) ;
+}
+
