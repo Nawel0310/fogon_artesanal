@@ -328,7 +328,8 @@
 #ubicaciones-escritas {
   width: auto;
   height: 600px;
-  background: url("../../assets/img/vectorComidaFondoNaranja.webp") center / auto repeat, #101010;
+  background: #101010;
+  border-bottom-color: #DC5F00;
 }
 
 .horarios {
